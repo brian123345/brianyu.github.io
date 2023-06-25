@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap');
+
+#wrapper{
+    grid-template-areas: "nav nav nav"
+                         "body body body"
+                         "body body body";
+     text-align: center;
+    font-family: 'Geologica', sans-serif; 
+    /* This has my grid template areas for my entire page as well as the font for the page */
+}
+#nav{
+   grid-area: nav;
+   background-color: #174E71;
+    grid-template-areas: "bdsc home photos skills aboutme insta discord outlook";
+    display: grid;
+    padding-top: 10px;
+    /* This has the grid template areas for the navigation as well as some padding */
+    
+}
+#bdsc{
+    grid-area: bdsc;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+#insta{
+    grid-area: insta;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+#discord{
+    grid-area: discord;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+#outlook{
+    grid-area: outlook;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+.home {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; /* or inline-flex */
+  align-items: center; 
+  justify-content: center;
+grid-area: home;
+    /* This is how I made a link to the home page an oval shape */
+}
+.photos {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: photos;
+    /* This is how I made a link to the photos page an oval shape */
+}
+.skills {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: skills;
+    /* This is how I made a link to the skills page an oval shape */
+}
+.aboutme {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  grid-area: aboutme;
+    /* This is how I made a link to the about me page an oval shape */
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* This is how I made the text that links to other pages not underlined and the colour i wanted */
+}
+#body{
+    grid-template-areas: "paragraph paragraph idphoto"
+                         "contacts contacts pepeha";
+    
+    grid-area: body;
+    background-color: black;
+    display: grid;
+    padding: 25px;
+    /* This div includes the grid templates areas for the body as well as some padding and the background colour */
+}
+#paragraph{
+    grid-area: paragraph;
+    background-color: #95B2B0;
+    font-size: 135%;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    /* This div includes the measurements (margina and padding) for my paragraph */
+}
+#contacts{
+    grid-area: contacts;
+    background-color: #95B2B0;
+    font-size: 200%;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    /* This div includes the measurements (margina and padding) for my contacts */
+}
+#pepeha{
+    grid-area: pepeha;
+    background-color: #95B2B0;
+    font-size: 150%;
+    margin-left: 2px;
+    margin-bottom: 30px;
+    /* This div includes the measurements (margina and font size) for my pepeha */
+}
+#idphoto {
+  grid-area: idphoto;
+    margin: 15px;
+    /* This div includes the margin of my ID photo */
+}

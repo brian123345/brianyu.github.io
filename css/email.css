@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap');
+#wrapper{
+    grid-template-areas: "nav nav nav"
+                         "body body body";
+     text-align: center;
+    background-color: black;
+    display: grid;
+    font-family: 'Geologica', sans-serif;
+    /* This is the wrapper which includes the grid template area for the page as well as the font */
+}
+#nav{
+   grid-area: nav;
+   background-color: #174E71;
+    grid-template-areas: "bdsc home photos skills aboutme insta discord outlook";
+    display: grid;
+    padding-top: 10px;
+    /* This is the navigation div which includes the grid template areas for the nav as well as padding and background colour */
+}
+#body{
+   grid-area: body;
+    background-color: black;
+    font-size: 200%;
+    color: #00FFF5;
+    /* This is the body div which includes the font sive as well as the background colour */
+}
+#bdsc{
+    grid-area: bdsc;
+    padding: 10px;
+    /* This is the grid area for part of the navigation */
+}
+#insta{
+    grid-area: insta;
+    padding: 10px;
+    /* This is the grid area for part of the navigation */
+}
+#discord{
+    grid-area: discord;
+    padding: 10px;
+    /* This is the grid area for part of the navigation */
+}
+#outlook{
+    grid-area: outlook;
+    padding: 10px;
+    /* This is the grid area for part of the navigation */
+}
+.home {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: home;
+    /* This is how I made a link to the home page an oval shape */
+}
+.photos {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  grid-area: photos;
+    /* This is how I made a link to the photos page an oval shape */
+}
+.skills {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: skills;
+    /* This is how I made a link to the skills page an oval shape */
+}
+.aboutme {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  grid-area: aboutme;
+    /* This is how I made a link to the about me page an oval shape */
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* This is how I made the text that links to other pages not underlined and the colour i wanted */
+}
+#email{
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 225px;
+    margin-bottom: 225px;
+    padding: 70px;
+    /* This is how I made my email address displayed in the middle of the page with margin and padding */
+}
+
+
+
+
+

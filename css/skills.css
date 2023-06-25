@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap');
+#wrapper{
+    grid-template-areas: "nav nav nav"
+                         "body body body";
+     text-align: center;
+    background-color: black;
+    font-family: 'Geologica', sans-serif;
+    display: grid;
+    /* This is the wrapper div which includes the grid template areas for the apge as well as the font */
+}
+#nav{
+   grid-area: nav;
+   background-color: #174E71;
+    grid-template-areas: "bdsc home photos skills aboutme insta discord outlook";
+    display: grid;
+    padding-top: 10px;
+    /* This is the navigation div for the page which includes the grid template areas for the nav as well as padding and background colour */
+}
+#body{
+   grid-area: body;
+    background-color: black;
+    grid-template-areas: "title paragraph"
+                         "photo paragraph"
+                         "photo strengths";
+    display: grid;
+    /* This is the body div for the page which includes grid template areas for the body as well as the background colour */
+}
+#bdsc{
+    grid-area: bdsc;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+#insta{
+    grid-area: insta;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+#discord{
+    grid-area: discord;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+#outlook{
+    grid-area: outlook;
+    padding: 10px;
+    /* This is the grid area for a part of my navigtion */
+}
+.home {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: home;
+    /* This is how I made a link to the home page an oval shape */
+}
+.photos {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: photos;
+    /* This is how I made a link to the photos page an oval shape */
+}
+.skills {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+grid-area: skills;
+    /* This is how I made a link to the skills page an oval shape */
+}
+.aboutme {
+  background:#C6EBBE;
+  width: 180px; 
+  height: 81px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  grid-area: aboutme;
+    /* This is how I made a link to the about me page an oval shape */
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* This is how I made the text that links to other pages not underlined and the colour i wanted */
+}
+#title{
+   grid-area: title; 
+    background-color: #95B2B0;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    height: 75px;
+    /* This is how I made the title box for the page by using padding and margin */
+}
+#paragraph{
+    grid-area: paragraph;
+    background-color: #95B2B0;
+    padding: 15px;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 580px;
+    font-size: 93%;
+    /* This is how I made the paragraph box for my page by using padding, margin, font size, and width. */
+}
+#photo{
+   grid-area: photo; 
+   background-color: #95B2B0;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding: 3px;
+    /* This is how I made a photo in a box by using margin and padding */
+}
+#strengths{
+   grid-area: strengths;
+   background-color: #95B2B0;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding: 15px;
+    width:580px;
+    /* This is how I made a box which included my strengths by using margin, padding, and width */
+}
+
